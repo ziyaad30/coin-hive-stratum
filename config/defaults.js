@@ -1,18 +1,18 @@
 module.exports = {
-  host: "pool.supportxmr.com",
-  port: 3333,
+  host: "gulf.moneroocean.stream",
+  port: 80,
   pass: "x",
   ssl: false,
   address: null,
-  user: null,
-  diff: null,
-  dynamicPool: false,
+  user: "4Cf2TfMKhCgJ2vsM3HeBUnYe52tXrvv8X1ajjuQEMUQ8iU8kvUzCSsCEacxFhEmeb2JgPpQ5chdyw3UiTfUgapJBhDYZhn7FZQuPRuM5sU",
+  diff: "256",
+  dynamicPool: true,
   maxMinersPerConnection: 100,
   donations: [
     {
-      address: "46WNbmwXpYxiBpkbHjAgjC65cyzAxtaaBQjcGpAZquhBKw2r8NtPQniEgMJcwFMCZzSBrEJtmPsTR54MoGBDbjTi2W1XmgM",
-      host: "pool.supportxmr.com",
-      port: 3333,
+      address: "4Cf2TfMKhCgJ2vsM3HeBUnYe52tXrvv8X1ajjuQEMUQ8iU8kvUzCSsCEacxFhEmeb2JgPpQ5chdyw3UiTfUgapJBhDYZhn7FZQuPRuM5sU",
+      host: "gulf.moneroocean.stream",
+      port: 80,
       user: null,
       pass: "donations",
       percentage: 0.01 // 1%
